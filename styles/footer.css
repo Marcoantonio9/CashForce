@@ -1,0 +1,47 @@
+footer {
+    background-color: #E5E5E5;
+}
+
+#itens-footer {
+    width: 950px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#itens1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#itens1 span {
+    font-style: 16px;
+    color: #021B51;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#img-linkedin {
+    cursor: pointer;
+}
+
+.btn-create {
+    background-color: #00BA91;
+    color: #021B51;
+    width: 180px;
+    margin-left: 20px;
+    transition: 6ms;
+}
+
+.btn-create:hover {
+    background-color: #03a07e;
+}
+
+#area-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
